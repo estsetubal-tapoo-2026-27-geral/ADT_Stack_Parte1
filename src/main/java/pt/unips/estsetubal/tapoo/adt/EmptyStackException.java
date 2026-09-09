@@ -1,4 +1,4 @@
-package org.estsetubal.tapoo.adt;
+package pt.unips.estsetubal.tapoo.adt;
 
 public class EmptyStackException extends RuntimeException {
     public EmptyStackException(String message) {

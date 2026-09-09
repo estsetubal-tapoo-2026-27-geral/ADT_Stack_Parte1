@@ -1,7 +1,7 @@
-package org.estsetubal.tapoo;
+package pt.unips.estsetubal.tapoo;
 
-import org.estsetubal.tapoo.adt.Stack;
-import org.estsetubal.tapoo.adt.StackArrayList;
+import pt.unips.estsetubal.tapoo.adt.Stack;
+import pt.unips.estsetubal.tapoo.adt.StackArrayList;
 
 public class Main {
 

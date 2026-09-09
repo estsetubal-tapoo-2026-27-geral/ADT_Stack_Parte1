@@ -1,4 +1,4 @@
-package org.estsetubal.tapoo.adt;
+package pt.unips.estsetubal.tapoo.adt;
 
 /**
  * The Stack interface defines the contract for an Abstract Data Type (ADT) Stack.

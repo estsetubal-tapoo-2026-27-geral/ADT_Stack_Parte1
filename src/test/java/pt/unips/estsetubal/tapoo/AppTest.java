@@ -1,4 +1,4 @@
-package org.estsetubal.tapoo;
+package pt.unips.estsetubal.tapoo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
