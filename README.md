@@ -1,4 +1,4 @@
-# ADT Stack Template — 2026/27 | Parte 1
+# ADT Stack — 2026/27 | Parte 1
 
 Este repositório contém um projeto **IntelliJ** de apoio ao estudo dos tipos abstratos de dados em Java, no âmbito da unidade curricular de **Tópicos Avançados de POO** da ESTSetúbal.
 
