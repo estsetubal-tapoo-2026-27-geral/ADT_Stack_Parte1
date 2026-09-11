@@ -16,3 +16,16 @@ Este repositório contém um projeto **IntelliJ** de apoio ao estudo dos tipos a
     - tentar adicionar um elemento a uma pilha cheia.
 
 5. Modifique o programa para utilizar uma pilha de *strings* (`Stack<String>`) e teste novamente as operações disponíveis.
+
+## Critérios de conclusão
+
+A atividade fica concluída quando:
+
+- são identificadas as operações disponibilizadas pela interface `Stack<T>` e o respetivo comportamento;
+- é explicado em que situações são lançadas `EmptyStackException` e `FullStackException`;
+- o método `main()` é executado com uma pilha de inteiros e evidencia o comportamento LIFO (*Last In, First Out*);
+- o programa testa e trata a tentativa de remover ou consultar um elemento numa pilha vazia;
+- o programa testa e trata a tentativa de inserir um elemento numa pilha cheia;
+- a implementação é adaptada para utilizar `Stack<String>` sem alterar o contrato do ADT;
+- as principais operações são novamente executadas com *strings* e produzem os resultados esperados;
+- o projeto compila e executa sem erros não tratados.
