@@ -29,3 +29,24 @@ A atividade fica concluída quando:
 - a implementação é adaptada para utilizar `Stack<String>` sem alterar o contrato do ADT;
 - as principais operações são novamente executadas com *strings* e produzem os resultados esperados;
 - o projeto compila e executa sem erros não tratados.
+
+## Exercícios Complementares
+
+
+Os exercícios complementares permitem consolidar a matéria.
+
+1. Para efeitos meramente pedagógicos, remova o atributo `size` da classe `StackLinkedList` e adapte o código existente para o tornar funcional.
+
+
+2. Exercícios de utilização
+
+Um programa deverá solicitar um número ao utilizador, e.g., 233 e apresentar esse número em binário. O algoritmo divide sucessivamente o número por 2 (divisão inteira) até zero e guarda numa pilha o resto das divisões – ver figura. O número em binário é obtido removendo todos os elementos da pilha, i.e., pela ordem de saída.
+
+![image](./docs/stack-binary.png)
+
+
+a. Crie uma classe `DecimalToBinary` contendo um método `main`; implemente o algoritmo solicitado no método:
+
+    > `public static String decimal2Binary(int decimal)`
+
+b. No método `main` crie o programa que solicita ao utilizador um número decimal e apresente a sua representação em binário; invoque o método anterior.
