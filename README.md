@@ -35,10 +35,7 @@ A atividade fica concluída quando:
 
 Os exercícios complementares permitem consolidar a matéria.
 
-1. Para efeitos meramente pedagógicos, remova o atributo `size` da classe `StackLinkedList` e adapte o código existente para o tornar funcional.
-
-
-2. Exercícios de utilização
+1. Exercícios de utilização
 
 Um programa deverá solicitar um número ao utilizador, e.g., 233 e apresentar esse número em binário. O algoritmo divide sucessivamente o número por 2 (divisão inteira) até zero e guarda numa pilha o resto das divisões – ver figura. O número em binário é obtido removendo todos os elementos da pilha, i.e., pela ordem de saída.
 
