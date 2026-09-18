@@ -52,6 +52,10 @@ public class StackArrayList<T> implements Stack<T> {
 
     @Override
     public void clear() {
+        // A remoção lógica é feita pela atualização do índice.
+        // Colocar esta posição a null elimina a referência mantida pelo array,
+        // permitindo que o objeto seja recolhido pelo Garbage Collector,
+        // caso não existam outras referências para ele.
         for (int i = 0; i < size; i++) {
             elements[i] = null;
         }
