@@ -6,7 +6,7 @@ Este repositório contém um projeto **IntelliJ** de apoio ao estudo dos tipos a
 
 1. Analise a interface `Stack<T>` , identifique as operações disponibilizadas pelo ADT *Stack*.
 
-3. Elabore os comentários de cada operação da interface `Stack<T>`.
+2. Elabore os comentários de cada operação da interface `Stack<T>`.
 
 3. Consulte as exceções definidas no projeto e verifique em que situações devem ser lançadas.
 
