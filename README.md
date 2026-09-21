@@ -6,24 +6,24 @@ Este repositório contém um projeto **IntelliJ** de apoio ao estudo dos tipos a
 
 1. Analise a interface `Stack<T>` , identifique as operações disponibilizadas pelo ADT *Stack*.
 
-2. Elabore os comentários de cada operação da interface `Stack<T>`.
+2. Introduza os comentários  Javadoc que descrevem o comportamento de cada operação na interface `Stack<T>`.
 
 3. Consulte as exceções definidas no projeto e verifique em que situações devem ser lançadas.
 
 4. Execute o método `main()` e observe o funcionamento da pilha.
 
-4. Altere o método `main()` para verificar o lançamento e o tratamento das exceções. Teste, pelo menos, as seguintes situações:
+5. Altere o método `main()` para verificar o lançamento e o tratamento das exceções. Teste, pelo menos, as seguintes situações:
 
     - tentar remover um elemento de uma pilha vazia;
     - tentar adicionar um elemento a uma pilha cheia.
 
-5. Modifique o programa para utilizar uma pilha de *strings* (`Stack<String>`) e teste novamente as operações disponíveis.
+6. Modifique o programa para utilizar uma pilha de *strings* (`Stack<String>`) e teste novamente as operações disponíveis.
 
 ## Critérios de conclusão
 
 A atividade fica concluída quando:
 
-- são identificadas as operações disponibilizadas pela interface `Stack<T>` e o respetivo comportamento;
+- A interface Stack<T> é completada, introduzindo comentários Javadoc que descrevem o comportamento de cada operação. 
 - é explicado em que situações são lançadas `EmptyStackException` e `FullStackException`;
 - o método `main()` é executado com uma pilha de inteiros e evidencia o comportamento LIFO (*Last In, First Out*);
 - o programa testa e trata a tentativa de remover ou consultar um elemento numa pilha vazia;
